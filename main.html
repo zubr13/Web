@@ -1,0 +1,120 @@
+<html>
+	<head>
+	<meta charset = "utf-8">
+	<link href = "css/style.css" type = "text/css"  rel = "stylesheet"/>
+	<link href = "css/bootstrap.min.css" rel ="stylesheet"/>
+	<link href = "css/bootstrap-theme.min.css" rel ="stylesheet"/>
+
+	
+	</head>
+
+	<body>
+	p
+		<header>
+		<div class = "row">
+			<div class = "title">
+				<a href = #>LA SHOP</a>
+			</div>
+			<ul class = "menu">
+				<li>Чоловіки</li>
+				<li>Жінки</li>
+				<li>Про нас</li>
+				<li>Послуги</li>
+				<li>Контакти</li>
+				<li> 
+					<div class = "basket">
+					</div> 
+					&nbsp;&nbsp;У кошику 
+					<label class = "items">
+					<span id='prod'>0</span> 
+					товарів(и)
+					</label> 
+					<label class = "prices">
+					<span class='price' >0</span> 
+					грн
+					</label>
+					</li>
+			</ul>
+		</div>	
+		</header>
+		
+		<div class = "jumbotron">
+			<div class = "description">
+				Нові тренди сезону
+			</div>
+			<div class = "see"><a href = #>Переглянути</a></div>
+			
+		</div>
+		
+	<section class="catalog">
+		<div class = "latest"> Останні продукти </div>
+		<div class="block-wrapper">
+		</div>
+		<div class="clear"></div>
+	</section>
+	
+<div id="cart_container">
+    <div id="cart_title">
+        <span>Кошик для покупок</span>
+    </div>
+    <div id="cart_content"> 
+
+    </div>
+    <div id="navigate">
+        <div id="nav_left">
+			<a  href = "#" id="checkout" onclick='buyItem()'>Купити</a>
+            <a id="clear_cart" onclick='clearBasket()'>Очистити кошик</a>
+        </div>
+        <div id="nav_right">
+            <span class="sptext">
+                <label>К-ть </label><label class="count" id="item">0 товарів</label>
+            </span>
+            <span class="sptext">
+                <label>Ціна </label><label class="count" id="price">0 грн</label>
+            </span>
+        </div>
+    </div>
+</div>
+
+	<footer>
+		<div class="col-sm-4 col-md-2">
+			<h3>Про компанію</h3>
+			Пн.-Пт.: з 9:00 до 18:00
+			<p>Сб.-Вс.: вихідні</p>
+			<img src = "img/telephone.png"></img>
+			(044) 462-50-90 </br>
+			(044) 462-57-67<br>
+			(093) 854-23-53</br>
+			(067) 406-90-80</br>
+			
+		</div>
+		
+		<div class="col-sm-4 col-md-4">
+			<h3 style = "padding-left: 2vw;">Сервіс</h3>
+			Наша компанія заснована в 2015 році в м.Києві. За ці роки ми накопичили колосальний досвід. Ми зарекомендували себе як надійна компанія,
+			успішно відкрили 8 роздрібних магазинів та інтернет-магазин. Пройшли всі ступені нелегкій конкурентній боротьби за утвердження на ринку.
+			Ми не тільки вижили в нелегкий час, але й успішно розвиваємося, придбали надійних партнерів і клієнтів, які за ці роки переконалися,
+			що з нами можна взаємовигідно співпрацювати.
+		</div>
+		
+		<div class="col-sm-4 col-md-2">
+			<h3>Співпраця</h3>
+			Работа в RED <br>
+			Партнерам <br>
+			Відновити дісконт
+		</div>
+		<div class="col-sm-4 col-md-3">
+			<h3>Приєднуйтесь до нас</h3>
+			<img src = "img/vk.png"></img>
+			<img src = "img/facebook.png"></img>
+			<img src = "img/instagram.png"></img>
+			<img src = "img/youtube.png"></img>	
+		</div>
+		
+	</footer>
+	</body>
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/json_data.json"></script>
+
+	<script type = "text/javascript" src="js/main.js"></script>
+</html>
